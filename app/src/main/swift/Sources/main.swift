@@ -25,9 +25,13 @@ open class main {
         
         NSLog(".::SWIFT::.")
         
-        var myExample = MyExample(name: "Marco")
+        //var myExample = MyExample(name: "Marco")
 
-        var myExample2 = MyExample()
+        //var myExample2 = MyExample()
+        
+        NSLog("returned int: \(MyExample.returnInt())")
+        
+        NSLog("retured sumInts: \(MyExample.sumInts(a: 30, b: 30))")
         
     }
 }

@@ -2,12 +2,12 @@ client:
   name: swift-build
 tools: {}
 targets:
-  "main": ["<java_lang.module>","<java_util.module>","<java_swift.module>","<libswiftkotlin.so.module>","<libswiftkotlin.so.exe>"]
-  "test": ["<java_lang.module>","<java_util.module>","<java_swift.module>","<libswiftkotlin.so.module>","<libswiftkotlin.so.exe>"]
-  "java_lang.module": ["<java_lang.module>"]
+  "main": ["<java_util.module>","<java_swift.module>","<libswiftkotlin.so.module>","<java_lang.module>","<libswiftkotlin.so.exe>"]
+  "test": ["<java_util.module>","<java_swift.module>","<libswiftkotlin.so.module>","<java_lang.module>","<libswiftkotlin.so.exe>"]
   "java_util.module": ["<java_util.module>"]
   "java_swift.module": ["<java_swift.module>"]
   "libswiftkotlin.so.module": ["<libswiftkotlin.so.module>"]
+  "java_lang.module": ["<java_lang.module>"]
   "libswiftkotlin.so.exe": ["<libswiftkotlin.so.exe>"]
 default: "main"
 commands: 

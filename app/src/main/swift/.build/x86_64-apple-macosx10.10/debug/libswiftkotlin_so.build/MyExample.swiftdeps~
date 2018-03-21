@@ -27,6 +27,8 @@ depends-member:
 - !private ["Sa", "subscript"]
 - !private ["s23BidirectionalCollectionP", "init"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "subscript"]
 - !private ["s10ComparableP", "init"]
@@ -45,10 +47,14 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
 - !private ["s8HashableP", "init"]
+- !private ["Si", "init"]
 - !private ["10java_swift7JNICoreC", "DeleteLocalRef"]
+- !private ["10java_swift9JNIMethodC", "CallStaticIntMethod"]
 - !private ["10java_swift9JNIMethodC", "NewObject"]
 - ["10java_swift9JNIObjectC", "Int"]
 - !private ["10java_swift9JNIObjectC", "JNI"]
@@ -59,37 +65,50 @@ depends-member:
 - ["10java_swift9JNIObjectC", "MyExampleJNIClass"]
 - ["10java_swift9JNIObjectC", "StaticString"]
 - ["10java_swift9JNIObjectC", "String"]
+- ["10java_swift9JNIObjectC", "constructor1"]
+- ["10java_swift9JNIObjectC", "constructor2"]
 - ["10java_swift9JNIObjectC", "init"]
 - !private ["10java_swift9JNIObjectC", "javaObject"]
 - ["10java_swift9JNIObjectC", "jclass"]
 - ["10java_swift9JNIObjectC", "jmethodID"]
 - !private ["10java_swift9JNIObjectC", "jobject"]
 - !private ["10java_swift9JNIObjectC", "jvalue"]
-- ["10java_swift9JNIObjectC", "new_MethodID_2"]
+- ["10java_swift9JNIObjectC", "returnInt"]
+- ["10java_swift9JNIObjectC", "returnInt_Method_Ref"]
+- ["10java_swift9JNIObjectC", "sumInts"]
+- ["10java_swift9JNIObjectC", "sumInts_Method_Ref"]
 - !private ["10java_swift9JNIObjectC", "withJavaObject"]
+- !private ["10java_swift13JNIObjectInitP", "Int"]
 - !private ["10java_swift13JNIObjectInitP", "JNI"]
 - !private ["10java_swift13JNIObjectInitP", "JNIMethod"]
 - !private ["10java_swift13JNIObjectInitP", "JNIType"]
 - !private ["10java_swift13JNIObjectInitP", "MyExample"]
 - !private ["10java_swift13JNIObjectInitP", "MyExampleJNIClass"]
 - ["10java_swift13JNIObjectInitP", ""]
+- !private ["10java_swift13JNIObjectInitP", "constructor1"]
+- !private ["10java_swift13JNIObjectInitP", "constructor2"]
 - !private ["10java_swift13JNIObjectInitP", "init"]
 - !private ["10java_swift13JNIObjectInitP", "javaObject"]
 - !private ["10java_swift13JNIObjectInitP", "jobject"]
 - !private ["10java_swift13JNIObjectInitP", "jvalue"]
-- !private ["10java_swift13JNIObjectInitP", "new_MethodID_2"]
+- !private ["10java_swift13JNIObjectInitP", "returnInt_Method_Ref"]
+- !private ["10java_swift13JNIObjectInitP", "sumInts_Method_Ref"]
 - !private ["10java_swift13JNIObjectInitP", "withJavaObject"]
+- !private ["10java_swift17JNIObjectProtocolP", "Int"]
 - !private ["10java_swift17JNIObjectProtocolP", "JNI"]
 - !private ["10java_swift17JNIObjectProtocolP", "JNIMethod"]
 - !private ["10java_swift17JNIObjectProtocolP", "JNIType"]
 - !private ["10java_swift17JNIObjectProtocolP", "MyExample"]
 - !private ["10java_swift17JNIObjectProtocolP", "MyExampleJNIClass"]
 - ["10java_swift17JNIObjectProtocolP", ""]
+- !private ["10java_swift17JNIObjectProtocolP", "constructor1"]
+- !private ["10java_swift17JNIObjectProtocolP", "constructor2"]
 - !private ["10java_swift17JNIObjectProtocolP", "init"]
 - !private ["10java_swift17JNIObjectProtocolP", "javaObject"]
 - !private ["10java_swift17JNIObjectProtocolP", "jobject"]
 - !private ["10java_swift17JNIObjectProtocolP", "jvalue"]
-- !private ["10java_swift17JNIObjectProtocolP", "new_MethodID_2"]
+- !private ["10java_swift17JNIObjectProtocolP", "returnInt_Method_Ref"]
+- !private ["10java_swift17JNIObjectProtocolP", "sumInts_Method_Ref"]
 - !private ["10java_swift17JNIObjectProtocolP", "withJavaObject"]
 - !private ["10java_swift7JNITypeC", "toJava"]
 - ["10java_swift10JavaObjectC", "Int"]
@@ -102,13 +121,18 @@ depends-member:
 - ["10java_swift10JavaObjectC", "StaticString"]
 - ["10java_swift10JavaObjectC", "String"]
 - ["10java_swift10JavaObjectC", ""]
+- ["10java_swift10JavaObjectC", "constructor1"]
+- ["10java_swift10JavaObjectC", "constructor2"]
 - ["10java_swift10JavaObjectC", "init"]
 - !private ["10java_swift10JavaObjectC", "javaObject"]
 - ["10java_swift10JavaObjectC", "jclass"]
 - ["10java_swift10JavaObjectC", "jmethodID"]
 - !private ["10java_swift10JavaObjectC", "jobject"]
 - !private ["10java_swift10JavaObjectC", "jvalue"]
-- ["10java_swift10JavaObjectC", "new_MethodID_2"]
+- ["10java_swift10JavaObjectC", "returnInt"]
+- ["10java_swift10JavaObjectC", "returnInt_Method_Ref"]
+- ["10java_swift10JavaObjectC", "sumInts"]
+- ["10java_swift10JavaObjectC", "sumInts_Method_Ref"]
 - !private ["10java_swift10JavaObjectC", "withJavaObject"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
@@ -123,6 +147,8 @@ depends-member:
 - !private ["17libswiftkotlin_so9MyExampleC", "MyExampleJNIClass"]
 - ["17libswiftkotlin_so9MyExampleC", "StaticString"]
 - ["17libswiftkotlin_so9MyExampleC", "String"]
+- !private ["17libswiftkotlin_so9MyExampleC", "constructor1"]
+- !private ["17libswiftkotlin_so9MyExampleC", "constructor2"]
 - ["17libswiftkotlin_so9MyExampleC", "deinit"]
 - ["17libswiftkotlin_so9MyExampleC", "init"]
 - !private ["17libswiftkotlin_so9MyExampleC", "javaObject"]
@@ -130,14 +156,21 @@ depends-member:
 - ["17libswiftkotlin_so9MyExampleC", "jmethodID"]
 - !private ["17libswiftkotlin_so9MyExampleC", "jobject"]
 - !private ["17libswiftkotlin_so9MyExampleC", "jvalue"]
-- !private ["17libswiftkotlin_so9MyExampleC", "new_MethodID_2"]
+- ["17libswiftkotlin_so9MyExampleC", "returnInt"]
+- !private ["17libswiftkotlin_so9MyExampleC", "returnInt_Method_Ref"]
+- ["17libswiftkotlin_so9MyExampleC", "sumInts"]
+- !private ["17libswiftkotlin_so9MyExampleC", "sumInts_Method_Ref"]
+- !private ["s7NumericP", "init"]
 - !private ["s22RandomAccessCollectionP", "init"]
 - !private ["s22RandomAccessCollectionP", "subscript"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "subscript"]
 - !private ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
 - !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "init"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
@@ -146,11 +179,13 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s23_BidirectionalIndexableP", "init"]
 - !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
 - !private ["10Foundation13_CFBridgeableP", "init"]
 - !private ["10Foundation13_CFBridgeableP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
@@ -171,11 +206,14 @@ depends-member:
 - !private ["s22_RandomAccessIndexableP", "subscript"]
 - !private ["s26_RangeReplaceableIndexableP", "init"]
 - !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s11_StrideableP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 - !private ["SC6jvalueV", "init"]
 depends-nominal:
 - !private "Sa"
 - !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "s7CVarArgP"
 - !private "s10CollectionP"
 - !private "s10ComparableP"
 - !private "s28CustomDebugStringConvertibleP"
@@ -187,9 +225,12 @@ depends-nominal:
 - !private "s9EquatableP"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
 - !private "s8HashableP"
+- !private "Si"
 - !private "10java_swift7JNICoreC"
 - !private "10java_swift9JNIMethodC"
 - "10java_swift9JNIObjectC"
@@ -201,19 +242,25 @@ depends-nominal:
 - !private "s10MirrorPathP"
 - !private "s17MutableCollectionP"
 - "17libswiftkotlin_so9MyExampleC"
+- !private "s7NumericP"
 - !private "s22RandomAccessCollectionP"
 - !private "s26RangeReplaceableCollectionP"
 - !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
 - !private "s12StaticStringV"
+- !private "s10StrideableP"
 - !private "SS"
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "s14_ArrayProtocolP"
 - !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
 - !private "10Foundation13_CFBridgeableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
@@ -226,6 +273,7 @@ depends-nominal:
 - !private "10Foundation21_ObjectTypeBridgeableP"
 - !private "s22_RandomAccessIndexableP"
 - !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
 - !private "s16_SwiftStringViewP"
 - !private "SC6jvalueV"
 depends-dynamic-lookup:
@@ -240,4 +288,4 @@ depends-external:
 - "/Users/jmarkstar/MillerTech/crossplatform/tools/swift-install/usr/lib/swift/android/armv7/SwiftOnoneSupport.swiftmodule"
 - "/Users/jmarkstar/MillerTech/crossplatform/tools/swift-install/usr/lib/swift/android/armv7/glibc.modulemap"
 - "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/checkouts/CJavaVM.git--1521134582023321205/module.modulemap"
-interface-hash: "51fc979a3ad39647fbfe48bf952b2606"
+interface-hash: "f38046196fc5061e8ca0b3089612c342"

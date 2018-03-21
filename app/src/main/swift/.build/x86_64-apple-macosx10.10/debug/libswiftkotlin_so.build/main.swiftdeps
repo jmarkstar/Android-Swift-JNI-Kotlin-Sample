@@ -6,6 +6,8 @@ provides-nominal:
 provides-member:
 - ["17libswiftkotlin_so4mainC", ""]
 depends-top-level:
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "JNIEnv"
 - !private "MyExample"
 - !private "NSLog"
@@ -28,13 +30,20 @@ depends-member:
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s8HashableP", "init"]
-- !private ["10java_swift9JNIObjectC", "init"]
+- !private ["10java_swift9JNIObjectC", "returnInt"]
+- !private ["10java_swift9JNIObjectC", "sumInts"]
 - !private ["10java_swift13JNIObjectInitP", "init"]
+- !private ["10java_swift13JNIObjectInitP", "returnInt"]
+- !private ["10java_swift13JNIObjectInitP", "sumInts"]
 - !private ["10java_swift17JNIObjectProtocolP", "init"]
-- !private ["10java_swift10JavaObjectC", "init"]
+- !private ["10java_swift17JNIObjectProtocolP", "returnInt"]
+- !private ["10java_swift17JNIObjectProtocolP", "sumInts"]
+- !private ["10java_swift10JavaObjectC", "returnInt"]
+- !private ["10java_swift10JavaObjectC", "sumInts"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
-- !private ["17libswiftkotlin_so9MyExampleC", "init"]
+- !private ["17libswiftkotlin_so9MyExampleC", "returnInt"]
+- !private ["17libswiftkotlin_so9MyExampleC", "sumInts"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s8SequenceP", "init"]
 - !private ["SS", "init"]

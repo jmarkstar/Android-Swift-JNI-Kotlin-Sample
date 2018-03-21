@@ -22,6 +22,10 @@ open class MyExample: JavaObject {
     //Global reference of the Java MyExample object
     private static var MyExampleJNIClass: jclass?
     
+    //**********************************/
+    //         CONSTRUCTORS             /
+    //**********************************/
+    
     /** Constructor without params
      */
     private static var constructor1: jmethodID?
@@ -70,6 +74,105 @@ open class MyExample: JavaObject {
         //deleting newMyExampleObject
         JNI.DeleteLocalRef( newMyExampleObject )
     }
+    
+    //**********************************/
+    //        STATIC FIELDS             /
+    //**********************************/
+    
+    
+    
+    //**********************************/
+    //        INSTANCE FIELDS           /
+    //**********************************/
+    
+    
+    
+    //**********************************/
+    //        STATIC METHODS            /
+    //**********************************/
+    
+    private static var returnInt_Method_Ref: jmethodID?
+    open class func returnInt() -> Int {
+        var __locals = [jobject]()
+        var params = [jvalue]( repeating: jvalue(), count: 1 )
+        
+        let returnedInt = JNIMethod.CallStaticIntMethod(
+            className: "com/jmarkstar/sample/MyExample",
+            classCache: &MyExample.MyExampleJNIClass,
+            methodName: "returnInt",
+            methodSig: "()I",
+            methodCache: &returnInt_Method_Ref,
+            args: &params,
+            locals: &__locals )
+        
+        return Int(returnedInt)
+    }
+    
+    private static var sumInts_Method_Ref: jmethodID?
+    open class func sumInts(a: Int, b: Int) -> Int {
+        var __locals = [jobject]()
+        
+        var params = [jvalue]( repeating: jvalue(), count: 2 )
+        params[0] = JNIType.toJava( value: a, locals: &__locals )
+        params[1] = JNIType.toJava( value: b, locals: &__locals )
+        
+        let returnedInt = JNIMethod.CallStaticIntMethod(
+            className: "com/jmarkstar/sample/MyExample",
+            classCache: &MyExample.MyExampleJNIClass,
+            methodName: "sumInts",
+            methodSig: "(II)I",
+            methodCache: &sumInts_Method_Ref,
+            args: &params,
+            locals: &__locals )
+        
+        return Int(returnedInt)
+    }
+    
+    //**********************************/
+    //        INSTANCE METHODS            /
+    //**********************************/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

@@ -1,9 +1,9 @@
 version: "Swift version 4.0-dev (LLVM b90f33daf1, Clang e352443ae3, Swift 7ade7c9336)"
 options: "a404a2e1b5f79660ee615065528be502"
-build_time: [1521604896, 382319000]
+build_time: [1521606859, 799069000]
 inputs:
-  "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/Sources/MyExample.swift": [1521604873, 0]
+  "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/Sources/MyExample.swift": [1521606847, 0]
   "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/Sources/SwiftMainBinding.swift": [1521590226, 0]
   "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/Sources/SwiftMainBinding_Listener.swift": [1521590226, 0]
   "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/Sources/SwiftMainBinding_Responder.swift": [1521590226, 0]
-  "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/Sources/main.swift": [1521604886, 0]
+  "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/Sources/main.swift": [1521606787, 0]

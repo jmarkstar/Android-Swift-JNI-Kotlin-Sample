@@ -8,9 +8,9 @@ class MyExample {
     companion object {
         @JvmStatic val myInt: Int = 1000
 
-        fun returnInt() : Int = 20
-        fun sumInts(a: Int, b:Int) : Int = a + b
-        fun concat(str1: String, str2: String) : String = "$str1 $str2"
+        @JvmStatic fun returnInt() : Int = 20
+        @JvmStatic fun sumInts(a: Int, b:Int) : Int = a + b
+        @JvmStatic fun concat(str1: String, str2: String) : String = "$str1 $str2"
     }
 
     var name: String? = null
