@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         Log.v(TAG, ".::Java::.")
         Log.v(TAG,"Sum is "+sumDoubles.toString())
         Log.v(TAG, MyExample.concat("Hello", "World"))
-        Log.v(TAG, MyExample.myInt.toString())
+        Log.v(TAG, MyExample.MY_INT.toString())
         Log.v(TAG, "name "+myExampleClass.name)
 
         viewLoaded()

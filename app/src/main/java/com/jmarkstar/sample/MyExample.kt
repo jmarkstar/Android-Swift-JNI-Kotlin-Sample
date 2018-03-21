@@ -6,7 +6,14 @@ package com.jmarkstar.sample
 class MyExample {
 
     companion object {
-        @JvmStatic val myInt: Int = 1000
+        @JvmStatic val MY_BYTE: Byte = 127
+        @JvmStatic val MY_SHORT: Short = 2700
+        @JvmStatic val MY_INT: Int = 1000
+        @JvmStatic val MY_LONG: Long = 12700000
+        @JvmStatic val MY_FLOAT: Float = 1000.4534F
+        @JvmStatic val MY_DOUBLE: Double = 12034343.3434454
+        @JvmStatic val MY_BOOLEAN: Boolean = true
+        @JvmStatic val MY_CHAR: Char = 'S'
 
         @JvmStatic fun returnInt() : Int = 20
         @JvmStatic fun sumInts(a: Int, b:Int) : Int = a + b
@@ -27,4 +34,7 @@ class MyExample {
 
     fun sumDoubles(d1: Double, d2: Double) : Double = d1 + d2
 
+    fun sayHello(){
+        name = "Hi $name"
+    }
 }
