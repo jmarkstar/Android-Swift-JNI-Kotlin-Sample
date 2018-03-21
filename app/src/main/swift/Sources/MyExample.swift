@@ -238,28 +238,5 @@ open class MyExample: JavaObject {
             args: &params,
             locals: &__locals )
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
- 
 }
 
