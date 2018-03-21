@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/master.swiftdeps"
+  },
+  "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/Sources/MyExample.swift": {
+    "dependencies": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/MyExample.d",
+    "object": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/MyExample.swift.o",
+    "swiftmodule": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/MyExample~partial.swiftmodule",
+    "swift-dependencies": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/MyExample.swiftdeps"
+  },
+  "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/Sources/SwiftMainBinding.swift": {
+    "dependencies": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/SwiftMainBinding.d",
+    "object": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/SwiftMainBinding.swift.o",
+    "swiftmodule": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/SwiftMainBinding~partial.swiftmodule",
+    "swift-dependencies": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/SwiftMainBinding.swiftdeps"
+  },
+  "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/Sources/SwiftMainBinding_Listener.swift": {
+    "dependencies": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/SwiftMainBinding_Listener.d",
+    "object": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/SwiftMainBinding_Listener.swift.o",
+    "swiftmodule": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/SwiftMainBinding_Listener~partial.swiftmodule",
+    "swift-dependencies": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/SwiftMainBinding_Listener.swiftdeps"
+  },
+  "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/Sources/SwiftMainBinding_Responder.swift": {
+    "dependencies": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/SwiftMainBinding_Responder.d",
+    "object": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/SwiftMainBinding_Responder.swift.o",
+    "swiftmodule": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/SwiftMainBinding_Responder~partial.swiftmodule",
+    "swift-dependencies": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/SwiftMainBinding_Responder.swiftdeps"
+  },
+  "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/Sources/main.swift": {
+    "dependencies": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/main.d",
+    "object": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/main.swift.o",
+    "swiftmodule": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/libswiftkotlin_so.build/main.swiftdeps"
+  }
+}

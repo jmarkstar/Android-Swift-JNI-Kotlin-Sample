@@ -1,13 +1,12 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'net.zhuoweizhang.swiftandroid'
 apply plugin: 'kotlin-android'
-
 apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.jmarkstar.android_swift_jni_kotlin_sample"
+        applicationId "com.jmarkstar.sample"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1

@@ -1,0 +1,61 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Native"
+- "NativeForward"
+provides-nominal:
+- "9java_lang6NativeP"
+- "9java_lang13NativeForwardC"
+provides-member:
+- ["9java_lang6NativeP", ""]
+- ["9java_lang13NativeForwardC", ""]
+depends-top-level:
+- "Annotation"
+- "AnnotationForward"
+- "Native"
+- "NativeForward"
+- "jclass"
+depends-member:
+- ["9java_lang10AnnotationP", ""]
+- !private ["9java_lang10AnnotationP", "init"]
+- ["9java_lang17AnnotationForwardC", "NativeJNIClass"]
+- ["9java_lang17AnnotationForwardC", ""]
+- ["9java_lang17AnnotationForwardC", "init"]
+- ["9java_lang17AnnotationForwardC", "jclass"]
+- ["10java_swift9JNIObjectC", "NativeJNIClass"]
+- ["10java_swift9JNIObjectC", "init"]
+- ["10java_swift9JNIObjectC", "jclass"]
+- ["10java_swift16JNIObjectForwardC", "NativeJNIClass"]
+- ["10java_swift16JNIObjectForwardC", "init"]
+- ["10java_swift16JNIObjectForwardC", "jclass"]
+- ["10java_swift13JNIObjectInitP", ""]
+- !private ["10java_swift13JNIObjectInitP", "init"]
+- ["10java_swift17JNIObjectProtocolP", ""]
+- !private ["10java_swift17JNIObjectProtocolP", "init"]
+- ["10java_swift12JavaProtocolP", ""]
+- !private ["10java_swift12JavaProtocolP", "init"]
+- ["9java_lang6NativeP", ""]
+- !private ["9java_lang13NativeForwardC", "NativeJNIClass"]
+- ["9java_lang13NativeForwardC", "deinit"]
+- ["9java_lang13NativeForwardC", "init"]
+- ["9java_lang13NativeForwardC", "jclass"]
+depends-nominal:
+- "9java_lang10AnnotationP"
+- "9java_lang17AnnotationForwardC"
+- "10java_swift9JNIObjectC"
+- "10java_swift16JNIObjectForwardC"
+- "10java_swift13JNIObjectInitP"
+- "10java_swift17JNIObjectProtocolP"
+- "10java_swift12JavaProtocolP"
+- "9java_lang6NativeP"
+- "9java_lang13NativeForwardC"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/jmarkstar/MillerTech/crossplatform/tools/swift-install/usr/lib/swift/android/armv7/Glibc.swiftmodule"
+- "/Users/jmarkstar/MillerTech/crossplatform/tools/swift-install/usr/lib/swift/android/armv7/Dispatch.swiftmodule"
+- "/Users/jmarkstar/MillerTech/crossplatform/tools/swift-install/usr/lib/swift/android/armv7/Foundation.swiftmodule"
+- "/Users/jmarkstar/MillerTech/crossplatform/tools/swift-install/usr/lib/swift/android/armv7/Swift.swiftmodule"
+- "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/x86_64-apple-macosx10.10/debug/java_swift.swiftmodule"
+- "/Users/jmarkstar/MillerTech/crossplatform/tools/swift-install/usr/lib/swift/android/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/jmarkstar/MillerTech/crossplatform/tools/swift-install/usr/lib/swift/android/armv7/glibc.modulemap"
+- "/Users/jmarkstar/MillerTech/crossplatform/code/Android-Swift-JNI-Kotlin-Sample/app/src/main/swift/.build/checkouts/CJavaVM.git--1521134582023321205/module.modulemap"
+interface-hash: "d78193a053ae285dbf7b4eed42a0d2fb"
